@@ -1,17 +1,31 @@
-import style from "../service/service.module.css";
+import style from "../about/about.module.css";
 
-const ServicePage=() => {
+const AboutPage=() => {
     return(
-        <div className={style.container}>
-
-            <h1 className={style.header}>This is service page</h1>
-            <ul>
-                <li><a href="/service/graphic-design">This is graphic designing page</a></li>
-                <li><a href="/service/vedio-editing">This is vedio editing page</a></li>
+        <div className= {style.container}>
 
 
-            </ul>
+            <h1 className={style.header}>This is about page</h1>
+
+
+            
+      <ul>
+
+        <li><a href="/">Go to Home Page</a></li>
+        <li><a href="/contact">Go to Contact Page</a></li>
+        <li><a href="/service">Go to Service Page</a></li>
+
+        
+        </ul>
+
         </div>
     )
 };
-export default ServicePage;
+export default AboutPage;
+
+        
+
+
+
+
+   
