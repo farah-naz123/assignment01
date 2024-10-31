@@ -1,31 +1,20 @@
-import style from "../about/about.module.css";
-
-const AboutPage=() => {
-    return(
-        <div className= {style.container}>
 
 
-            <h1 className={style.header}>This is about page</h1>
+const HomePage=() => {
+  return(
+    <div>
 
-
-            
       <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/service">Service</a></li>
 
-        <li><a href="/">Go to Home Page</a></li>
-        <li><a href="/contact">Go to Contact Page</a></li>
-        <li><a href="/service">Go to Service Page</a></li>
 
-        
-        </ul>
 
-        </div>
-    )
+
+      </ul>
+    </div>
+  )
 };
-export default AboutPage;
-
-        
-
-
-
-
-   
+export default HomePage;
