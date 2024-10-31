@@ -1,31 +1,11 @@
-import style from "../about/about.module.css";
 
-const AboutPage=() => {
+
+const GraphicDesign=() => {
     return(
-        <div className= {style.container}>
+        <div>
 
-
-            <h1 className={style.header}>This is about page</h1>
-
-
-            
-      <ul>
-
-        <li><a href="/">Go to Home Page</a></li>
-        <li><a href="/contact">Go to Contact Page</a></li>
-        <li><a href="/service">Go to Service Page</a></li>
-
-        
-        </ul>
-
+            <h1>This is graphic designing page</h1>
         </div>
     )
 };
-export default AboutPage;
-
-        
-
-
-
-
-   
+export default GraphicDesign;
